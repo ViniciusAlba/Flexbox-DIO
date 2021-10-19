@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #122A57;
+
+    padding: 30px 100px 30px 100px;
+
+    color: #FFF;
+}
+
+header li {
+    display: inline-block;
+
+    margin-left: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.flex-turismos {
+    display: flex;
+    flex-direction: column;
+
+    margin: 100px 0;
+}
+
+.flex-turismos-saiba-mais, .flex-turismos-quem-somos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-turismos-saiba-mais h2 {
+    width: 250px;
+
+    color: #122A57;
+
+    font-size: 40px;
+
+    margin-bottom: 10px;
+}
+
+.flex-turismos-saiba-mais p {
+    color: #000000;
+
+    margin-bottom: 30px;
+}
+
+.flex-turismos-saiba-mais input {
+    width: 150px;
+
+    background-color: #122A57;
+    color: #FFFFFF;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    border: none;
+    border-radius: 30px;
+
+    padding: 10px;
+}
+
+.flex-turismos-saiba-mais input:hover {
+    cursor: pointer;
+}
+
+.flex-turismos-quem-somos h2 {
+    width: 250px;
+
+    color: #122A57;
+
+    font-size: 30px;
+
+    border-left: 5px solid #122A57;
+    
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.flex-turismos-quem-somos p {
+    color: #122A57;
+
+    width: 500px;
+
+    margin-bottom: 30px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px 0;
+
+    color: #FFFFFF;
+    background-color: #122A57;
+}
+
+.services-articles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-articles article {
+    text-align: center;
+}
+
+.services-articles img {
+    margin: 50px 0;
+}
+
+.services-articles h3 {
+    margin-bottom: 30px;
+}
+
+.services-articles input {
+    width: 150px;
+
+    background-color: #FFFFFF;
+    color: #122A57;
+
+    box-shadow: 0px 4px 4px #FFFFFF;
+
+    font-weight: 600;
+
+    border: none;
+    border-radius: 30px;
+
+    padding: 10px;
+}
+
+.services-articles input:hover { 
+    cursor: pointer;
+}
+
+.services-h2 h2, .plans-h2 h2 {
+    font-size: 30px;
+
+    margin-left: 10.5%;
+}
+
+.plans {
+    margin: 100px 0;
+    color: #000000;
+}
+
+.plans-articles {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.plans-articles article {
+    border: 5px solid #122A57;
+
+    margin-top: 50px;
+
+    padding: 30px;
+}
+
+.plans-articles li {
+    list-style-type: square;
+    margin: 5px;
+}
+
+.plans-articles input {
+    width: 150px;
+
+    background-color: #122A57;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 30px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    padding: 10px;
+}
+
+.plans-articles input:hover {
+    cursor: pointer;
+}
+
+.plan-1 h4 {
+    text-align: center;
+
+    font-size: 22px;
+
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    
+    border-bottom: 3px solid #122A57;
+}
+
+.plan-1 input {
+    margin-top: 30px;
+}
+
+.plan-2 h4 {
+    text-align: center;
+
+    font-size: 22px;
+
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    
+    border-bottom: 3px solid #122A57;
+}
+
+.plan-2 input {
+    margin-top: 50px;
+}
+
+.plan-3 h4 {
+    text-align: center;
+
+    font-size: 22px;
+
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+    
+    border-bottom: 3px solid #122A57;
+}
+
+.plan-3 input {
+    margin-top: 70px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 100px;
+    margin-top: 50px; 
+
+    background-color: #122A57;
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+
+    font-weight: 700;
+}

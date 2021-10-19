@@ -4,21 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
     <title>Flexbox Page - DIO</title>
 </head>
 <body>
 
     <header>
 
-        <h1>FlexTurismos</h1>
+        <h1 class="logo">FlexTurismos</h1>
 
         <nav>
 
             <ul>
 
-                <li>Quem Somos</li>
-                <li>Serviços</li>
-                <li>Planos</li>
+                <li>
+                    <a href="#">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+                <li>
+                    <a href="#">Planos</a>
+                </li>
 
             </ul>
 
@@ -28,177 +43,205 @@
 
     <main>
 
-        <section>
+        <section class="flex-turismos">
 
-            <article>
+            <article class="flex-turismos-saiba-mais">
 
-                <h2>Flex Turismos</h2>
+                <div>
 
-                <p>O melhor serviço para você!</p>
+                    <h2>Flex Turismos</h2>
 
-                <form>
+                    <p>O melhor serviço para você!</p>
 
-                    <input type="button" value="Saiba mais!">
+                    <form>
 
-                </form>
+                        <input type="button" value="Saiba mais!">
 
-                <img src="/imgs/image1.png" alt="Mulher no aeroporto">
+                    </form>
+            
+                </div>
 
-            </article>
+                <div>
 
-            <article>
+                    <img src="/imgs/image1.png" alt="Mulher no aeroporto">
 
-                <img src="/imgs/image2.png" alt="Galera no aeroporto">
-
-                <h2>Quem Somos</h2>
-
-                <p>
-
-                    It is a long established fact that a reader will be distracted by the 
-                    readable content of a page when looking at its layout.
-
-                </p>
-
-                <p>
-
-                    The point of using Lorem Ipsum is that it has a more-or-less normal 
-                    distribution of letters, as opposed to using 'Content here, content here', 
-                    making it look like readable English.
-
-                </p>
+                </div>
 
             </article>
 
-        </section>
+            <article class="flex-turismos-quem-somos">
 
-        <section>
+                <div>
 
-            <h2>Serviços</h2>
+                    <img src="/imgs/image2.png" alt="Galera no aeroporto">
 
-            <article>
+                </div>
 
-                <img src="/imgs/travel1.png" alt="avião">
+                <div>
 
-                <h3>Pacotes de viagens</h3>
+                    <h2>Quem Somos</h2>
 
-                <form>
+                    <p>
 
-                    <input type="button" value="Comprar agora">
+                        It is a long established fact that a reader will be distracted by the 
+                        readable content of a page when looking at its layout.
 
-                </form>
+                    </p>
 
-            </article>
+                    <p>
 
-            <article>
+                        The point of using Lorem Ipsum is that it has a more-or-less normal 
+                        distribution of letters, as opposed to using 'Content here, content here', 
+                        making it look like readable English.
 
-                <img src="/imgs/hotel1.png" alt="predio">
+                    </p>
 
-                <h3>Hospedagens</h3>
-
-                <form>
-
-                    <input type="button" value="Comprar agora">
-
-                </form>
-
-            </article>
-
-            <article>
-
-                <img src="/imgs/map1.png" alt="mapa">
-
-                <h3>Roteiros personalizados</h3>
-
-                <form>
-
-                    <input type="button" value="Comprar agora">
-
-                </form>
+                </div>
 
             </article>
 
         </section>
 
-        <section>
+        <section class="services">
 
-            <h2>Planos</h2>
+            <div class="services-h2">
+                <h2>Serviços</h2>
+            </div>
 
-            <article>
+            <div class="services-articles">
+                <article>
 
-                <h4>Plano 1</h4>
+                    <img src="/imgs/travel1.png" alt="avião">
 
-                <nav>
+                    <h3>Pacotes de viagens</h3>
 
-                    <ul>
+                    <form>
 
-                        <li>Suporte 24h</li>
-                        <li>Serviços de quarto</li>
-                        <li>Guia turístico</li>
+                        <input type="button" value="Comprar agora">
 
-                    </ul>
+                    </form>
 
-                </nav>
+                </article>
 
-                <form>
+                <article>
 
-                    <input type="button" value="Comprar agora">
+                    <img src="/imgs/hotel1.png" alt="hotel">
 
-                </form>
+                    <h3>Hospedagens</h3>
 
-            </article>
+                    <form>
 
-            <article>
+                        <input type="button" value="Comprar agora">
 
-                <h4>Plano 2</h4>
+                    </form>
 
-                <nav>
+                </article>
 
-                    <ul>
+                <article>
 
-                        <li>Suporte 24h</li>
-                        <li>Serviços de quarto</li>
-                        <li>Guia turístico</li>
-                        <li>Roteiro de trilhas</li>
-                        <li>Serviço personalizado</li>
-                        
-                    </ul>
+                    <img src="/imgs/map1.png" alt="mapa">
 
-                </nav>
+                    <h3>Roteiros personalizados</h3>
 
-                <form>
+                    <form>
 
-                    <input type="button" value="Comprar agora">
+                        <input type="button" value="Comprar agora">
 
-                </form>
+                    </form>
 
-            </article>
+                </article>
+            </div>
 
-            <article>
+        </section>
 
-                <h4>Plano 3</h4>
+        <section class="plans">
 
-                <nav>
+            <div class="plans-h2">
 
-                    <ul>
+                <h2>Planos</h2>
 
-                        <li>Suporte 24h</li>
-                        <li>Serviços de quarto</li>
-                        <li>Guia turístico</li>
-                        <li>Roteiro de trilhas</li>
-                        <li>Serviço personalizado</li>
-                        <li>Área vip</li>
+            </div>
 
-                    </ul>
+            <div class="plans-articles">
 
-                </nav>
+                <article class="plan-1">
 
-                <form>
+                    <h4>Plano 1</h4>
 
-                    <input type="button" value="Comprar agora">
+                    <nav>
 
-                </form>
+                        <ul>
 
-            </article>
+                            <li>Suporte 24h</li>
+                            <li>Serviços de quarto</li>
+                            <li>Guia turístico</li>
+
+                        </ul>
+
+                    </nav>
+
+                    <form>
+
+                        <input type="button" value="Saiba mais!">
+
+                    </form>
+
+                </article>
+
+                <article class="plan-2">
+
+                    <h4>Plano 2</h4>
+
+                    <nav>
+
+                        <ul>
+
+                            <li>Suporte 24h</li>
+                            <li>Serviços de quarto</li>
+                            <li>Guia turístico</li>
+                            <li>Roteiro de trilhas</li>
+                            <li>Serviço personalizado</li>
+                            
+                        </ul>
+
+                    </nav>
+
+                    <form>
+
+                        <input type="button" value="Saiba mais!">
+
+                    </form>
+
+                </article>
+
+                <article class="plan-3">
+
+                    <h4>Plano 3</h4>
+
+                    <nav>
+
+                        <ul>
+
+                            <li>Suporte 24h</li>
+                            <li>Serviços de quarto</li>
+                            <li>Guia turístico</li>
+                            <li>Roteiro de trilhas</li>
+                            <li>Serviço personalizado</li>
+                            <li>Área vip</li>
+
+                        </ul>
+
+                    </nav>
+
+                    <form>
+
+                        <input type="button" value="Saiba mais!">
+
+                    </form>
+
+                </article>
+
+            </div>
 
         </section>
 
@@ -208,8 +251,12 @@
 
         <p>&copy; CSS Flexbox</p>
 
-        <p>Desenvolvido por: Vinícius Martins</p>
-
+        <p>
+            
+            Desenvolvido por: <a href="https://www.github.com/ViniciusAlba" target="_blank">Vinícius Martins</a>
+        
+        </p>
+    
     </footer>
     
 </body>
