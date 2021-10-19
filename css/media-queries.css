@@ -1,0 +1,156 @@
+@media (max-width: 360px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        background-color: #122A57;
+    
+        padding: 30px 0;
+    
+        color: #FFF;
+    }
+
+    header li {
+        display: inline-block;
+    
+        margin: 20px 10px;
+    }
+
+    .flex-turismos-saiba-mais, .flex-turismos-quem-somos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-turismos img {
+        width: 300px;
+
+        margin: 30px 0;
+    }
+
+    .flex-turismos-quem-somos p {
+        color: #122A57;
+    
+        width: 300px;
+    
+        margin-bottom: 30px;
+    }
+
+    .services-articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .plans-articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 0 10px;
+        margin-top: 50px; 
+    
+        background-color: #122A57;
+        color: #FFFFFF;
+    }
+
+}
+
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        background-color: #122A57;
+    
+        padding: 30px 0;
+    
+        color: #FFF;
+    }
+
+    header li {
+        display: inline-block;
+    
+        margin: 20px 10px;
+    }
+
+    .flex-turismos-saiba-mais, .flex-turismos-quem-somos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .plans-articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 0 10px;
+        margin-top: 50px; 
+    
+        background-color: #122A57;
+        color: #FFFFFF;
+    }
+
+}
+
+@media (max-width: 999px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    
+        background-color: #122A57;
+    
+        padding: 30px;
+    
+        color: #FFF;
+    }
+
+    .flex-turismos img {
+        width: 350px;
+
+        margin: 30px 0;
+    }
+
+    .flex-turismos-quem-somos p {
+        color: #122A57;
+    
+        width: 250px;
+    
+        margin-bottom: 30px;
+    }
+
+    .services-articles {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .plans-articles {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
